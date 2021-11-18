@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#about{
+    width: 100%;
+    margin-bottom: 100px;
+}
+#about .container{
+    margin: 0 auto;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about .container .title{
+    text-align: center;
+}
+#about .container .title h2{
+    position: relative;
+}
+#about .container .title p{
+    font-size: 15px;
+    line-height: 1.7;
+    margin-top: 40px;
+}
+#about .container .title h2::after{
+    content: "";
+    background-color: gray;
+   width: 70px;
+   height: 1px;
+   position: absolute;
+   top: 45px;
+   left: 160px;
+}
+#about .container .title span{
+    color: gray;
+    font-weight: 400;
+}
+#about .container .content{
+    display: flex;
+    margin-top: 70px;
+}
+#about .container .content .bio{
+    margin-left: 60px;
+}
+#about .container .content .bio p{
+    color: gray;
+    margin-top: 20px;
+}
+#about .container .content .bio .button a{
+ text-decoration: none;
+ color: white;
+ font-size: 15px;
+ font-weight: 800;
+ display: inline-block;
+ padding: 10px 25px;
+}
+#about .container .content .bio .button{
+    background-color: black;
+    width: 140px;
+    height: 40px;
+    margin-top: 50px;
+}
+#what{
+    width: 100%;
+}
+#what .container{
+    margin: 0 auto;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#what .container .title{
+    text-align: center;
+    margin-top: 100px   ;
+}
+#what .container .title h2{
+    position: relative;
+    margin-bottom: 40px
+}
+#what .container .title h2::after{
+    content: "";
+    background-color: gray;
+   width: 100px;
+   height: 2px;
+   position: absolute;
+   top: 45px;
+   left: 160px;
+}
+#what::before{
+    content: "";
+    background-color: rgb(185, 185, 185);
+   width: 100%;
+   height: 1px;
+   position: absolute;
+   top: 600px;
+   
+}
+
+#what .container .title h2 span{
+    color: gray;
+}
+
+#what .container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  margin-right: 100px;
+}
+#what .container .box div{
+ width: 400px;
+ padding-left: 100px;
+ margin-top: 100px;
+ text-align: center;
+}
+#what .container .box div i{
+    font-size: 40px;
+    color: gray;
+}
+#what .container .box div h3{
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+#what .container .box div p{
+    color: gray;
+}
+#myworks{
+    margin-top: 250px;
+    width: 100%;
+    position: relative;
+}
+#myworks::before{
+    content: "";
+    background-color: rgb(185, 185, 185);
+   width: 100%;
+   height: 1px;
+   position: absolute;
+   margin-top: -150px;
+}
+#myworks .container .title h2 ::after{
+    content: "";
+    background-color: gray;
+   width: 100px;
+   height: 2px;
+   position: absolute;
+   top: 45px;
+   left: 710px;
+}
+#myworks .container .title{
+text-align: center;
+position: relative;
+}
+#myworks .container .title h2 span{
+    color: grey;
+}
+#myworks .container .title p{
+margin-top: 50px;
+margin-bottom: 60px;
+}
+
+#myworks .container .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#myworks .container .icons div{
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+#myworks .container .icons i{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: grey;
+
+}
+#myworks .container .icons h4{
+    color: grey;
+}
+#myworks .container .box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#myworks .container .box div{
+    width: 360px;
+ text-align: center;
+}
+#myworks .container .box div:hover{
+    width: 100%;
+    transition: 0.8s ease-out;
+}
+#myworks .container .box div img {
+ width: 350px;
+}
+
